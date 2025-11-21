@@ -1,15 +1,14 @@
 ╔════════════════════════════════════════════════════════════════════╗
-║             SCENARIO REPORT FILE         ║  Configuration Issues   ║
-╠════════════════════════════════════════════════════════════════════╣
-║ Scenario Number : 09                                               
-║ Scenario Name   : Default Credentials                              
+║             SCENARIO REPORT FILE         ║  Configuration Issues                       ║
+╠════════════════════════════════════════════════════════════════════╣                                        
+║                 Scenario Name            :               Default Credentials                              
 ╚════════════════════════════════════════════════════════════════════╝
 
 
 [ SYSTEM SPECIFICATION ]
 ─────────────────────────────────────────────────────────────────────
 • Operating System : Ubuntu 22.04.5 LTS
-• ROS Version      : ROS2 Humble
+• ROS Version      : ROS2 Humble/Foxy
 • Simulator        : Gazebo Fortress
 • Hardware Setup   : Virtual Machine (4 vCPUs, 8 GB RAM, 60 GB disk)
 

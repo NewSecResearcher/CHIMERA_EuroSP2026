@@ -3,7 +3,6 @@
 **Scenario Metadata:**
 
 -------------------------------------------------------------------------------------------------------------------------
-- Scenario Number: 10
 - Scenario Name: Replay Attack
 - Category: Other Scenarios
 

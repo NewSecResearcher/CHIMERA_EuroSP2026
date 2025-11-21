@@ -1,14 +1,13 @@
 ╔════════════════════════════════════════════════════════════════════╗
-║ SCENARIO REPORT FILE                     ║          ENCRYPTION VALIDATION              ║
-╠════════════════════════════════════════════════════════════════════╣
-║ Scenario Number : 11                                                                   ║
+║ SCENARIO REPORT FILE                     ║          Injection Attacks                  ║
+╠════════════════════════════════════════════════════════════════════╣                                                                
 ║ Scenario Name : Encryption Validation                                                  ║
 ╚════════════════════════════════════════════════════════════════════╝
 
 [ SYSTEM SPECIFICATION ]
 ─────────────────────────────────────────────────────────────────────
 • Operating System : Ubuntu 22.04.5 LTS
-• ROS Version : ROS2 Humble
+• ROS Version : ROS2 Humble/Foxy
 • Simulator : Gazebo Ignition
 • Hardware Setup : Virtual Machine (4 vCPUs, 8 GB RAM, 60 GB disk)
 • Network : Two VM topology (Attacker + Victim, NAT/Bridge)

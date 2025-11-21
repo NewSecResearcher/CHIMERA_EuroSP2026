@@ -7,9 +7,8 @@
 -------------------------------------------------------------------------------------------------------------------------------------
 
 
-- Scenario Number: 02
 
-- Scenario Name: TF Injection Detection
+- Scenario Name: A - TF Injection Detection
 
 - Category: Injection Attacks
 

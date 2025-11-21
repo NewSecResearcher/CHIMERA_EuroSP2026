@@ -6,7 +6,6 @@
 
 -------------------------------------------------------------------------------------------------------------------------
 
-- Scenario Number: 06
 - Scenario Name: Dashboard / API Hijack
 - Category: Web Application \& API Exploitation
 

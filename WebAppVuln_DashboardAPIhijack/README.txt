@@ -1,15 +1,14 @@
 ╔════════════════════════════════════════════════════════════════════╗
-║       SCENARIO REPORT FILE       ║       Web Application Vuln.     ║
-╠════════════════════════════════════════════════════════════════════╣
-║ Scenario Number : 06                                               
-║ Scenario Name   : Dashboard / API Hijack                           
+║       SCENARIO REPORT FILE       ║       Web Application Vuln.                         ║
+╠════════════════════════════════════════════════════════════════════╣                                             
+║                 Scenario Name    :       Dashboard / API Hijack                           
 ╚════════════════════════════════════════════════════════════════════╝
 
 
 [ SYSTEM SPECIFICATION ]
 ─────────────────────────────────────────────────────────────────────
 • Operating System : Ubuntu 22.04.5 LTS
-• ROS Version      : ROS2 Humble
+• ROS Version      : ROS2 Foxy/Humble
 • Simulator        : Gazebo Ignition
 • Hardware Setup   : Virtual Machine (4 vCPUs, 8 GB RAM, 60 GB disk)
 • Network          : Two VM topology (Attacker + Victim, NAT/Bridge)

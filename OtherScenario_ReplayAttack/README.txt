@@ -1,16 +1,15 @@
 
 ╔════════════════════════════════════════════════════════════════════╗
-║           SCENARIO REPORT FILE                 ║  OTHER SCENARIOS  ║
-╠════════════════════════════════════════════════════════════════════╣
-║ Scenario Number : 10                                            
-║ Scenario Name   : Replay Attack                                    
+║           SCENARIO REPORT FILE                 ║           OTHER SCENARIOS             ║
+╠════════════════════════════════════════════════════════════════════╣                                          
+║              Scenario Name                     :            Replay Attack                                    
 ╚════════════════════════════════════════════════════════════════════╝
 
 
 [ SYSTEM SPECIFICATION ]
 ─────────────────────────────────────────────────────────────────────
 • Operating System : Ubuntu 22.04.5 LTS
-• ROS Version      : ROS2 Humble
+• ROS Version      : ROS2 Humble/Foxy
 • Simulator        : Gazebo Ignition
 • Hardware Setup   : Virtual Machine (4 vCPUs, 8 GB RAM, 60 GB disk)
 • Network          : Two VM topology (Attacker + Victim, NAT/Bridge)

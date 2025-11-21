@@ -1,16 +1,15 @@
 ╔════════════════════════════════════════════════════════════════════╗
-║           SCENARIO REPORT FILE                 ║ Injection Attacks ║
-╠════════════════════════════════════════════════════════════════════╣
-║ Scenario Number : 02                                               
-║ Scenario Name   : TF Injection Detection                           
+║           SCENARIO REPORT FILE             ║  A -  Injection Attacks                   ║
+╠════════════════════════════════════════════════════════════════════╣                                           
+║                         Scenario Name    :    TF Injection Detection                           
 ╚════════════════════════════════════════════════════════════════════╝
 
 
 [ SYSTEM SPECIFICATION ]
 ─────────────────────────────────────────────────────────────────────
-• Operating System : Ubuntu 22.04.5 LTS
-• ROS Version      : ROS2 Humble
-• Simulator        : Gazebo Fortress
+• Operating System : Ubuntu 20.04.5 LTS
+• ROS Version      : ROS2 Noetic
+• Simulator        : Gazebo Classic
 • Hardware Setup   : Virtual Machine (4 vCPUs, 8 GB RAM, 60 GB disk)
 • Network          : Two VM topology (Attacker + Victim, NAT/Bridge)
 

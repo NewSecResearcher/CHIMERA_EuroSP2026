@@ -1,18 +1,10 @@
-Euro S\&P 2026
 
-Title - SoK: Layered Vulnerability Assessment and Orchestrated Testing in Robotic Systems
+Title - CHIMERA: A Cross-Layer Security Assessment Framework for ROS-Based Robotic Systems
 
 
 
 Abstract - 
-Robots are rapidly being deployed across manufacturing, transportation, defense, and service domains, yet they continue to expose critical security risks. Issues such as exposed ROS services, insecure default credentials, and injection-based attacks significantly expand the attack surface. Recent real-world incidents have demonstrated how adversaries can hijack motion controllers or spoof perception sensors such as LiDAR, revealing deeper weaknesses within the ROS ecosystem. Despite these growing threats, the security evaluation in robotics remains fragmented, as existing tools often focus on individual layers of the software stack and provide limited system-wide visibility. To better understand this landscape, we surveyed over fifty research works and examined more than a dozen open-source security tools. Our analysis shows that most tools detect only localized faults and lack the cross-layer perspective needed to capture the multi-stage attack chains that occur in practice.
+Robotic systems built on ROS2 are increasingly adopted in distributed and safety-critical applications, where system security depends not only on the availability of protection mechanisms but also on their correct configuration and systematic validation. However, current security assessment practices are often fragmented, relying on isolated tools and lacking a unified workflow to analyze interactions across system layers. This work introduces CHIMERA, a layer-aware orchestration framework designed to enable structured and reproducible security evaluation in ROS2 environments. The framework integrates existing open-source tools into scenario-driven pipelines that cover system discovery, middleware communication, runtime behavior, and configuration validation. By focusing on execution ordering and artifact reuse, CHIMERA facilitates consistent cross-layer analysis without proposing new detection mechanisms. The framework is evaluated through a set of controlled experiments on ROS2 testbeds, demonstrating improved traceability, repeatability, and coherence in security assessments. In particular, CHIMERA supports systematic validation of widely used security mechanisms through scenario-based evaluations including DDS-Security and SROS2, while revealing how vulnerabilities and misconfigurations may propagate across layers. These findings highlight the critical role of structured orchestration in advancing practical security evaluation for complex robotic systems.
 
-To address these limitations, our work makes three key contributions.
-(1) We developed a unified and systematized vulnerability taxonomy, covering hardware, middleware, runtime, network, AI-based, and other categories, along with an analysis of the open-source security tools available for robotic systems.
-(2) We introduced a layer-aligned testing architecture that maps ROS2’s operational stack to practical adversarial phases such as discovery, injection, network analysis, and forensics, providing a unified orchestration workflow with standardized data hand-offs and controlled cross-layer attack propagation.
-(3) We conducted scenario-based evaluation and empirical analysis using CHIMERA, demonstrating its practicality through representative attack conditions, cross-layer traceability, and measurable insights into configuration weaknesses and robotic system resilience.
-
-By enabling structured cross-layer testing, CHIMERA offers a practical foundation for automated, scalable, and secure-by-design robotic security workflows. We also make all evaluation artifacts publicly available on our GitHub repository \url{https://github.com/NewSecResearcher/CHIMERA_EuroSP2026} to support reproducibility and encourage further community-driven extensions.
-
-Keywords—  Robot security, security assessment, ROS, SoK, vulnerability taxonomy, orchestrated testing, open-source.
+Keywords—  ROS; robotic security; security assessment; CHIMERA; vulnerability analysis; cross-layer security; robot security; open-source
 
